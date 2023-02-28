@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald&family=Pacifico&family=Philosopher:ital,wght@1,700&family=Satisfy&family=Tilt+Prism&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right, #0052d4, #4364f7, #6fb1fc);
+}
+
+.btn-section2{
+    text-align: center;
+}
+
+#author-qoute{
+    background-color: #FF5F9E;
+    border-radius: 10px ;
+    padding: 20px;
+}
+#author-pic{
+    background-image: url(./pic.jpg);
+    background-size: cover; 
+}
+
+.card-text{
+    width: 20%;
+    padding: 5px;
+    background-color: #90aae8;
+    border-radius: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.btn-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+button{
+    padding: 10px 30px;
+    background-color: #3d75ef;
+}
